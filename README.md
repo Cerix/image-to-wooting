@@ -6,7 +6,6 @@ A userscript for [Wootility](https://wootility.io/) that lets you load any image
 
 
 ![img-to-wooting](img/s2.png)
----
 
 ## ✨ Features
 
@@ -19,7 +18,7 @@ A userscript for [Wootility](https://wootility.io/) that lets you load any image
 - 🔍 Pre-flight check: warns you if the color picker is not visible before starting
 - 🖱️ Draggable floating panel
 
----
+
 
 ## 🚀 Installation
 
@@ -31,7 +30,7 @@ A userscript for [Wootility](https://wootility.io/) that lets you load any image
 
 3. **Open Wootility** at [https://wootility.io/](https://wootility.io/) or **Open Wootility Beta** at [https://beta.wootility.io/](https://beta.wootility.io/). The panel will appear automatically in the bottom-right corner.
 
----
+
 
 ## 🎮 How to use
 
@@ -49,8 +48,6 @@ A userscript for [Wootility](https://wootility.io/) that lets you load any image
 
 > ⚠️ **Important:** Make sure the RGB color picker is visible on screen before clicking Apply. If the script can't find it, it will show an error message asking you to navigate to the RGB Settings tab first.
 
----
-
 
 ## 🛠️ How it works
 
@@ -60,7 +57,6 @@ The script samples the pixel color at the center of each key's position relative
 2. Writes the R, G, B values directly into the picker's input fields using React's internal event system (`__reactProps$`) to ensure the state updates correctly
 3. Simulates a click on the key to assign the color
 
----
 
 ## ☕ Support
 
